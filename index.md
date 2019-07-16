@@ -59,7 +59,9 @@ Em algumas telas você verá botões e ícones representando se o cliente possui um 
 
 Caso o ícone <img src="images/sem_gps.png"> seja apresentado, significa que o cliente está sem mapeamento de GPS para a loja.
 
-Para mapear uma loja ou fazenda de um cliente vá em `Menu` depois `Clientes` procure o cliente e nos detalhes você verá um botão de `check in` ao clicar no mesmo ele vai coletar as corrdenadas e gravar no cliente, sendo assim na próxima sincronização o cliente agora será um cliente mapeado.
+Para mapear uma loja ou fazenda de um cliente vá em `Menu` depois `Clientes` procure o cliente e nos detalhes você verá um botão de `check in` ao clicar no mesmo ele vai coletar as coordenadas e gravar no cliente, sendo assim na próxima sincronização o cliente agora será um cliente mapeado.
+
+<img src="images/botao_checkin.png">
 
 Também é possível mapear o cliente pela tela de oportunidades botão checkin no menu superior.
 

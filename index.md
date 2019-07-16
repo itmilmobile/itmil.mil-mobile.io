@@ -20,11 +20,55 @@ A `Agenda` é a entidade que representa um contato com o cliente, nela você deve 
 
 Para registrar uma agenda entra no `Menu` depois `Agendas`, nele você verá o dashboard.
 
-![Dashboard Agendas](./images/dashboard_agendas.png)
+<img src="images/dashboard_agendas.png" alt="dashboard agendas" width="250"/>
 
 Nesta tela você pode separar as agendas em agendas da `Semana`, Do `Dia` ou `Todas`, acima pode ser feito um filtro ver as agendas por semana ou no `+` onde podemos criar uma nova agenda.
 
 Ao clicar no `+` você verá a seguinte janela:
 
-![Formulário de Agenda](./images/agenda.png)
+<img src="images/agenda.png" alt="formulário de cadastro de agendas" width="250"/>
 
+
+### Oportunidades
+
+As `Oportunidades` são o registro principal de vendas de máquinas ou veículos, esta entidade vai te ajudar a organizar e controlar as negociações com o cliente até a venda efetiva do produto.
+
+Para registrar uma oportunidade vá ao `Menu` depois `Oportunidades`, na tela apresentada você terá uma lista de clietes e prospects com um filtro e um menu superior.
+
+<img src="images/dashboard_oportunidades.png" alt="dashboard de oportunidades" width="250">
+
+No menu superior verá um checkbox que filtra os clientes entre os que possuem oportunidades e os que não possuem. No ícone de `+` você poderá criar um prospect com os dados digitados nos campos `Nome, Documento e Telefone` e adicionar uma oportunidade ao mesmo.
+
+Escolhendo um cliente ou criando um prospect o formulário de oportunidades será apresentado, nele você vai poder cadastrar sua oportunidade de negócio.
+
+<img src="images/interesse_2.png" alt="formulário de interesse 2" width="250">
+
+<img src="images/interesse.png" alt="formulário de interesse 1" width="250">
+
+Lembrando que uma oportunidade pode conter mais de 1 interesse.
+
+### Raic
+
+Os `Raics` são os registros de satisfação ou insatisfação com o cliente, entrando em `Menu` depois `RAIC` será possível registrar uma satisfação ou insatisfação para um cliente.
+
+Prospects não podem ter `RAICS`
+
+### Mapeamento GPS de Clientes
+
+Em algumas telas você verá botões e ícones representando se o cliente possui um mapeamento GPS em seu cadastrou ou não.
+
+Caso o ícone <img src="images/sem_gps.png"> seja apresentado, significa que o cliente está sem mapeamento de GPS para a loja.
+
+Para mapear uma loja ou fazenda de um cliente vá em `Menu` depois `Clientes` procure o cliente e nos detalhes você verá um botão de `check in` ao clicar no mesmo ele vai coletar as corrdenadas e gravar no cliente, sendo assim na próxima sincronização o cliente agora será um cliente mapeado.
+
+Também é possível mapear o cliente pela tela de oportunidades botão checkin no menu superior.
+
+### Sincronização
+
+No `Menu` `Sincronizar` repare que existem 2 botões, `SINCRONIZAR` e `RÁPIDA` a diferença das duas consiste na quantidade de dados que será recebido e enviado entre celular e webservice de integração.
+
+A sincronização completa busca todos os dados para trabalho com celular e pode ser bem demorada pois trafega todos os clientes, modelos, oportunidades do celular.
+
+A sincronização rápida somente envia os dados que foram alterados no celular para o webservice de integração, é bem mais rápido e recomendado caso esteja em uma rede lenta 3G.
+
+Embora seja possível sempre usar a sincronização rápida alguns dados precisam de sincronização completa de tempos em tempos, como por exemplo os modelos vendidos que podem ser incluídos novos, mapeamentos GPS de clientes, etc.
